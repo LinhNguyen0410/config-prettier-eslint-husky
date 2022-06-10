@@ -1,10 +1,8 @@
 import { useState } from 'react'
 import { useCallback } from 'react'
-import { useContext } from 'react';
-import { useEffect } from 'react';
+import { useContext } from 'react'
+import { useEffect } from 'react'
 import './App.css'
-
-debuggers
 
 function App() {
 	return (
