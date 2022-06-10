@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import { useCallback } from 'react'
-import { useContext } from 'react'
-import { useEffect } from 'react'
+import { useCallback } from 'react';
+import { useContext } from 'react';
+import { useEffect } from 'react';
 import './App.css'
 
 function App() {
