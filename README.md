@@ -1,23 +1,32 @@
 # Package Installed
 
-prettier
+        prettier
 
-eslint
+        eslint
 
- babel-eslint
+        babel-eslint
 
- eslint-config-react-app
+        eslint-config-react-app
 
- eslint-config-prettier
+        eslint-config-prettier
 
- eslint-plugin-prettier
+        eslint-plugin-prettier
 
 
 > https://prettier.io/playground/
 
-### Husky setup
-yarn add husky --dev
+# Husky setup
+        yarn add husky --dev
 
-yarn husky install
+        yarn husky install
 
-yarn add lint-staged
+        yarn add lint-staged
+
+**Add pre-commit to husky** : yarn husky add .husky/pre-commit "your commit".
+
+**Add script for package.json** : 
+
+        "lint-staged": {
+            "*.ts,tsx": "eslint --fix ",
+            "*.{ts,tsx,css,md,html,json}": "prettier --cache --write"
+        }
