@@ -6,7 +6,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "lint-staged": "eslint --fix --ext ts,tsx src/",
+    "lint-staged": "lint-staged --config lint-staged.js",
     "lint": "eslint --ext ts,tsx src/",
     "lint:fix": "eslint --fix --ext ts,tsx src/",
     "prettier": "prettier --check \"src/**/(**.tsx|*.ts|*.scss|*.css)\"",
