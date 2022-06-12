@@ -10,6 +10,7 @@
     "lint:fix": "eslint --fix --ext ts,tsx src/",
     "prettier": "prettier --check \"src/**/(**.tsx|*.ts|*.scss|*.css)\"",
     "prettier:fix": "prettier --write \"src/**/(**.tsx|*.ts|*.scss|*.css)\"",
+    "lint-staged": "eslint --fix --ext ts,tsx src/",
     "prepare": "husky install"
   },
   "dependencies": {
